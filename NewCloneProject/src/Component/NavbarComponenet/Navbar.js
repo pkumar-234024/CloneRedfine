@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import * as React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Login from './Component/LoginRegistration/Login';
+
 
 function Navbar() {
     return (
@@ -14,7 +14,7 @@ function Navbar() {
   <div id="navb" className="navbar-collapse collapse hide">
     <ul className="navbar-nav">
       <li className="nav-item active">
-        <a className="nav-link" href="./Login">Home</a>
+        <a className="nav-link" href="#">Home</a>
       </li>
       <li className="nav-item active">
         <a className="nav-link" href="#">Sell</a>
